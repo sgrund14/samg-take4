@@ -44,6 +44,16 @@ const linkConfig = [
 		href: 'dat://7a49333d2d9ab6238ca38f104caa55c0b2f3f7727308ae9b75d6ac95fbe73cd9/',
 		category: 'social'
 	},
+	{
+		text: 'hello',
+		href: 'mailto:sgrund626@gmail.com',
+		category: 'contact'
+	},
+	{
+		text: 'nice handshake ya got there',
+		href: 'www.linkedin.com/in/samuel-grund',
+		category: 'contact'
+	},
 ];
 
 document.ready = (() => {
