@@ -125,9 +125,9 @@
     	flex-direction: column;
     }
   }
- @media only screen and (max-width: 500px) {
+ @media only screen and (max-width: 500px), (min-width: 400px) {
 	.content-row {
-		grid-template-columns: max-content 130px;
+		grid-template-columns: max-content 130px max-content;
 	}
 	.links {
 		grid-row: 2;
@@ -147,4 +147,9 @@
 	[mobile="xdr"] {
 		flex-direction: row;
 	}
+ }
+ @media only screen and (max-width: 400px) {
+ 	[smallmobile="xdc"] {
+ 		flex-direction: column;
+ 	}
  }
