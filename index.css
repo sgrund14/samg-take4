@@ -109,7 +109,7 @@
 	grid-column-gap: 1rem;
 }
 
-@media only screen and (max-width: 800px), (min-width: 500px) {
+@media only screen and (max-width: 800px) and (min-width: 500px) {
 	.content-row {
 		grid-template-columns: max-content 130px max-content 1fr;
 	}
@@ -125,9 +125,12 @@
     	flex-direction: column;
     }
   }
- @media only screen and (max-width: 500px), (min-width: 400px) {
+ @media only screen and (max-width: 500px) and (min-width: 400px) {
 	.content-row {
 		grid-template-columns: max-content 130px max-content;
+	}
+	.content-container {
+		grid-row-gap: calc(1rem - 15px);
 	}
 	.links {
 		grid-row: 2;
