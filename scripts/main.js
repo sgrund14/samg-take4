@@ -30,17 +30,17 @@ const linkConfig = [
 		category: 'hope'
 	},
 	{
-		text: 'for coding',
+		text: 'coder me',
 		href: 'https://github.com/sgrund14',
 		category: 'social'
 	},
 	{
-		text: 'for discovery',
+		text: 'cool me',
 		href: 'https://are.na/samuel-grund',
 		category: 'social'
 	},
 	{
-		text: 'for my peers',
+		text: 'peer 2 me',
 		href: 'dat://7a49333d2d9ab6238ca38f104caa55c0b2f3f7727308ae9b75d6ac95fbe73cd9/',
 		category: 'social'
 	},
@@ -56,30 +56,10 @@ const linkConfig = [
 	},
 ];
 
-const colorCombos = [
-	["red", "orange", "yellow", "lightyellow"],
-	// ["blueviolet", "blue", "cadetblue", "darkmagenta"],
-	// ["darkolivegreen", "brown", "coral", "gold"],
-	// ["darkorchid", "cornflowerblue", "lavender", "lavenderblush"]
-
-];
-const startColors = colorCombos[Math.floor(Math.random()*(colorCombos.length))];
-document.documentElement.style.setProperty("--circle1", startColors[0]);
-document.documentElement.style.setProperty("--circle2", startColors[1]);
-document.documentElement.style.setProperty("--circle3", startColors[2]);
-document.documentElement.style.setProperty("--circle4", startColors[3]);
-
 document.ready = (() => {
 	function onLinkHover(text, category) {
 		document.getElementById(`${category}-links`).textContent = text;
 		document.getElementById(`${category}-wrapper`).classList.remove('hidden');
-
-		// const colors = colorCombos[Math.floor(Math.random()*(colorCombos.length))];
-		// document.documentElement.style.setProperty("--circle1", colors[0]);
-		// document.documentElement.style.setProperty("--circle2", colors[1]);
-		// document.documentElement.style.setProperty("--circle3", colors[2]);
-		// document.documentElement.style.setProperty("--circle4", colors[3]);
-
 	}
 	function offLinkHover(category) {
 		document.getElementById(`${category}-wrapper`).classList.add('hidden');
