@@ -58,9 +58,9 @@ const linkConfig = [
 
 const colorCombos = [
 	["red", "orange", "yellow", "lightyellow"],
-	// ["blueviolet", "blue", "cadetblue", "darkmagenta"],
-	// ["darkolivegreen", "brown", "coral", "gold"],
-	// ["darkorchid", "cornflowerblue", "lavender", "lavenderblush"]
+	["blueviolet", "blue", "cadetblue", "darkmagenta"],
+	["darkolivegreen", "brown", "coral", "gold"],
+	["darkorchid", "cornflowerblue", "lavender", "lavenderblush"]
 
 ];
 const startColors = colorCombos[Math.floor(Math.random()*(colorCombos.length))];
