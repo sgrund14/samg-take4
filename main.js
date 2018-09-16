@@ -25,7 +25,7 @@ const linkConfig = [
 		category: 'hope'
 	},
 	{
-		text: '<3 <3 <3',
+		text: '❤️',
 		href: 'https://www.instagram.com/tinygentleasians/',
 		category: 'hope'
 	},
