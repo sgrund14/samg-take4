@@ -54,6 +54,16 @@ const linkConfig = [
 		href: 'www.linkedin.com/in/samuel-grund',
 		category: 'contact'
 	},
+	{
+		text: 'Read Carly B.\'s review of SLA Thai Restaurant on Yelp',
+		href: 'https://www.yelp.com/biz/sla-thai-restaurant-montclair?hrid=CnTcH9ZqoMWZ5y8G7R-fgA',
+		category: 'press'
+	},
+	{
+		text: 'Read Janine R.\'s review of SLA Thai Restaurant on Yelp',
+		href: 'https://www.yelp.com/biz/sla-thai-restaurant-montclair?hrid=H5R6TmHLJ1bUvH1lp6jGnw',
+		category: 'press'
+	}
 ];
 
 const colorCombos = [
