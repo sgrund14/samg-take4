@@ -117,7 +117,10 @@
 	text-decoration: none;
 	padding-right: 0.2rem;
 }
-
+body p::selection, body a::selection, .big-arrow::selection {
+	background-color: black;
+	color: white;
+}
 @media only screen and (max-width: 800px) {
 	.content-row {
 		grid-template-columns: max-content 130px max-content 1fr;
