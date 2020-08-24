@@ -20,22 +20,12 @@ const linkConfig = [
 		category: 'work'
 	},
 	{
-		text: 'A book about birds and people',
-		href: 'https://www.npr.org/books/titles/536028247/the-evolution-of-beauty-how-darwins-forgotten-theory-of-mate-choice-shapes-the-a',
-		category: 'hope'
-	},
-	{
-		text: '❤️',
-		href: 'https://www.instagram.com/tinygentleasians/',
-		category: 'hope'
-	},
-	{
 		text: 'for coding',
 		href: 'https://github.com/sgrund14',
 		category: 'social'
 	},
 	{
-		text: 'for discovery',
+		text: 'for research',
 		href: 'https://are.na/samuel-grund',
 		category: 'social'
 	},
