@@ -1,10 +1,5 @@
 const linkConfig = [
 	{
-		text: 'Fabb Artists Breaking Boundaries ~ React/Redux/Firebase with a built in CMS',
-		href: 'https://fabb.world',
-		category: 'work'
-	},
-	{
 		text: 'Oberlin College & Community Radio ~ React/Redux/Firebase/MySQL with a built in CMS',
 		href: 'https://www.wobc.org',
 		category: 'work'
@@ -15,8 +10,8 @@ const linkConfig = [
 		category: 'work'
 	},
 	{
-		text: 'A Site for Deborah Davis Jackson ~ HTML/CSS/JS + Extremely Thorough Documentation',
-		href: 'http://deborahdavisjackson.org',
+		text: 'I think this was my first website',
+		href: 'https://sgrund14.github.io',
 		category: 'work'
 	},
 	{
@@ -35,6 +30,11 @@ const linkConfig = [
 		category: 'social'
 	},
 	{
+		text: 'please follow me',
+		href: 'https://instagram.com/gruno14',
+		category: 'social'
+	},
+	{
 		text: 'hello',
 		href: 'mailto:sgrund626@gmail.com',
 		category: 'contact'
@@ -45,13 +45,13 @@ const linkConfig = [
 		category: 'contact'
 	},
 	{
-		text: 'Read Carly B.\'s review of SLA Thai Restaurant on Yelp',
-		href: 'https://www.yelp.com/biz/sla-thai-restaurant-montclair?hrid=CnTcH9ZqoMWZ5y8G7R-fgA',
+		text: '"Our server Sam was sweet and adorable and offered plenty of suggestions" - Janine R.',
+		href: 'https://www.yelp.com/biz/sla-thai-restaurant-montclair?hrid=H5R6TmHLJ1bUvH1lp6jGnw',
 		category: 'press'
 	},
 	{
-		text: 'Read Janine R.\'s review of SLA Thai Restaurant on Yelp',
-		href: 'https://www.yelp.com/biz/sla-thai-restaurant-montclair?hrid=H5R6TmHLJ1bUvH1lp6jGnw',
+		text: '"Very Friendly Service (Sam)" - Carly B. ***DISCLAIMER CARLY B\'s ACCOUNT HAS SINCE BEEN DELETED BUT PLEASE TRUST ME***',
+		href: 'https://www.yelp.com/biz/sla-thai-restaurant-montclair?hrid=CnTcH9ZqoMWZ5y8G7R-fgA',
 		category: 'press'
 	}
 ];
