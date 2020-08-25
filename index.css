@@ -110,9 +110,8 @@
 	grid-row-gap: 1rem;
 }
 .content-row {
-	display: grid;
-	grid-template-columns: max-content 130px repeat(3, max-content);
-	grid-column-gap: 1rem;
+	display: flex;
+	grid-column-gap: .5rem;
 }
 .link:after {
 	content: ", ";
