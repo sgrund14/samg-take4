@@ -10,7 +10,7 @@ const linkConfig = [
 		category: 'work'
 	},
 	{
-		text: 'I think this was my first website',
+		text: 'This is the second version of my first website',
 		href: 'https://sgrund14.github.io',
 		category: 'work'
 	},
