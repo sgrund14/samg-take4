@@ -50,7 +50,7 @@ const linkConfig = [
 		category: 'press'
 	},
 	{
-		text: '"Very Friendly Service (Sam)" - Carly B. ***DISCLAIMER CARLY B\'s ACCOUNT HAS SINCE BEEN DELETED BUT PLEASE TRUST ME***',
+		text: '"Very Friendly Service (Sam)" - Carly B. ***DISCLAIMER CARLY B\'s ACCOUNT HAS SINCE BEEN DELETED***',
 		href: 'https://www.yelp.com/biz/sla-thai-restaurant-montclair?hrid=CnTcH9ZqoMWZ5y8G7R-fgA',
 		category: 'press'
 	}
