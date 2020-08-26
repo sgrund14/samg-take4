@@ -5,7 +5,7 @@ const linkConfig = [
 		category: 'work'
 	},
 	{
-		text: 'A Groundbreaking Puzzlegame ~ React/Redux/Firebase + Konva.js',
+		text: 'A Groundbreaking Puzzle Game ~ React/Redux/Firebase + Konva.js',
 		href: 'https://salt-and-pepper-games.github.io/prism/#/',
 		category: 'work'
 	},
