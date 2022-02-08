@@ -7,20 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="./index.css"/> 
   </head>
-  <body>
-    <main id="main">
-      <center class="mb1">
+  <body class="m0">
+    <main id="main" style="height:100vh;display:flex;justify-content:center;align-items:center;">
+      <p class="mb1">
       WELCOME FANS OF SAM GRUND TO <a href="https://www.samgrund.com">SAMGRUND.COM</a>!
-      </center>
-      <center>
+      </p>
+      <p>
       IF YOU WAIT 15 SECONDS THIS PAGE WILL TELL YOU YOUR FUTURE
-      </center>
+      </p>
     </main>
   </body>
   <script>
     setTimeout(() => {
       const el = document.querySelector("#main");
-      el.innerHTML = "<center>YOU WILL NEVER DIE!</center>"
+      el.innerHTML = "<strong>YOU WILL NEVER DIE!</strong>"
     }, 15000);
     </script>
 </html>
