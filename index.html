@@ -8,10 +8,19 @@
     <link rel="stylesheet" href="./index.css"/> 
   </head>
   <body>
-    <main>
+    <main id="main">
+      <center class="mb1">
+      WELCOME FANS OF SAM GRUND TO <a href="https://www.samgrund.com">SAMGRUND.COM</a>!
+      </center>
       <center>
-      WELCOME TO <a href="https://www.samgrund.com">SAMGRUND.COM</a>!
+      IF YOU WAIT 15 SECONDS THIS PAGE WILL TELL YOU YOUR FUTURE
       </center>
     </main>
   </body>
+  <script>
+    setTimeout(() => {
+      const el = document.querySelector("#main");
+      el.innerHTML = "<center>YOU WILL NEVER DIE!</center>"
+    }, 15000);
+    </script>
 </html>
