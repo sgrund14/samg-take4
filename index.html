@@ -58,33 +58,4 @@
       </section>
     </main>
   </body>
-  <script src="./blurhash.min.js"></script>
-  <script>
-    const img = document.getElementById('rumo-img');
-
-    // if the image is already loaded, don't do anything
-    if (img.complete && img.naturalHeight !== 0) {
-      return;
-    }
-    const blurhash = 'LPG0mu-;koRQ??a5VxWUKZnnw~Rj';
-    // Generate a placeholder image from the blurhash
-    const canvas = document.createElement('canvas');
-    const ctx = canvas.getContext('2d');
-    const width = 200; // Width of the image
-    const height = 200; // Height of the image
-    canvas.width = width;
-    canvas.height = height;
-    const pixels = BlurHash.decode(blurhash, width, height);
-    const imageData = ctx.createImageData(width, height);
-    imageData.data.set(pixels);
-    ctx.putImageData(imageData, 0, 0);
-    img.src = canvas.toDataURL();
-
-    // Replace the placeholder with the actual image when it loads
-    const actualImg = new Image();
-    actualImg.src = './rumo.jpeg';
-    actualImg.onload = () => {
-      img.src = actualImg.src;
-    };
-  </script>
 </html>
