@@ -2,22 +2,22 @@
 <html>
   <head>
     <title>samgrunddotcom</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
     
     <meta name="description" content="samgrund dot com">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" href="./input.css"/> 
+    <link rel="stylesheet" href="./index.css"/> 
     <link rel="stylesheet" href="./output.css"/> 
   </head>
   <body>
     <main id="main" class="font-serif p-5 grid gap-4 text-center">
       <section>
-        <div class="w-44 h-44 min-h-44 min-w-44 m-auto overflow-hidden">
-          <img src="./rumo.jpeg" alt="Rumo the dog" class="rounded-full h-full w-full object-cover bg-slate-200 ">
+        <div class="w-[200px] h-[200px] min-h-[200px] min-w-[200px] m-auto overflow-hidden">
+          <img id="rumo-img" src="./rumo.jpeg" alt="Rumo the dog" class="rounded-full h-full w-full object-cover bg-slate-200 ">
         </div>
         <h1 class="mt-4 font-semibold">Sam Grund</h1>
       </section>
@@ -58,6 +58,33 @@
       </section>
     </main>
   </body>
-  <script>     
-    </script>
+  <script src="./blurhash.min.js"></script>
+  <script>
+    const img = document.getElementById('rumo-img');
+
+    // if the image is already loaded, don't do anything
+    if (img.complete && img.naturalHeight !== 0) {
+      return;
+    }
+    const blurhash = 'LPG0mu-;koRQ??a5VxWUKZnnw~Rj';
+    // Generate a placeholder image from the blurhash
+    const canvas = document.createElement('canvas');
+    const ctx = canvas.getContext('2d');
+    const width = 200; // Width of the image
+    const height = 200; // Height of the image
+    canvas.width = width;
+    canvas.height = height;
+    const pixels = BlurHash.decode(blurhash, width, height);
+    const imageData = ctx.createImageData(width, height);
+    imageData.data.set(pixels);
+    ctx.putImageData(imageData, 0, 0);
+    img.src = canvas.toDataURL();
+
+    // Replace the placeholder with the actual image when it loads
+    const actualImg = new Image();
+    actualImg.src = './rumo.jpeg';
+    actualImg.onload = () => {
+      img.src = actualImg.src;
+    };
+  </script>
 </html>
