@@ -558,8 +558,16 @@ video {
   margin: auto;
 }
 
+.m-\[8px\] {
+  margin: 8px;
+}
+
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mb-\[\.67rem\] {
+  margin-bottom: .67rem;
 }
 
 .flex {
@@ -602,24 +610,12 @@ video {
   align-items: center;
 }
 
-.justify-center {
-  justify-content: center;
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
 }
 
 .gap-3 {
   gap: 0.75rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
 }
 
 .overflow-hidden {
@@ -649,30 +645,8 @@ video {
      object-fit: cover;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
 .text-center {
   text-align: center;
-}
-
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .font-times {
@@ -684,16 +658,28 @@ video {
   line-height: 2.5rem;
 }
 
-.font-semibold {
-  font-weight: 600;
+.text-\[2rem\] {
+  font-size: 2rem;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .italic {
   font-style: italic;
+}
+
+.leading-\[1\] {
+  line-height: 1;
+}
+
+.leading-\[2rem\] {
+  line-height: 2rem;
 }
 
 .text-blue-500 {
