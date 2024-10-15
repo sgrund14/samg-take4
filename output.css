@@ -554,20 +554,24 @@ video {
   --tw-contain-style:  ;
 }
 
+.m-\[8px\] {
+  margin: 8px;
+}
+
 .m-auto {
   margin: auto;
 }
 
-.m-\[8px\] {
-  margin: 8px;
+.mb-\[\.67rem\] {
+  margin-bottom: .67rem;
 }
 
 .mt-4 {
   margin-top: 1rem;
 }
 
-.mb-\[\.67rem\] {
-  margin-bottom: .67rem;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .flex {
@@ -608,6 +612,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .gap-2 {
@@ -653,11 +661,6 @@ video {
   font-family: Times New Roman, serif;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-\[2rem\] {
   font-size: 2rem;
 }
@@ -672,10 +675,6 @@ video {
 
 .italic {
   font-style: italic;
-}
-
-.leading-\[1\] {
-  line-height: 1;
 }
 
 .leading-\[2rem\] {
